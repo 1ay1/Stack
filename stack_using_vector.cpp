@@ -54,7 +54,7 @@ int main()
             break;
         default:
             error("Wrong input, Enter any key to get the menu again: ");
-            getch() ;
+            keep_the_fucking_window_open() ;
             break ;
         }
         cout << "\n" << "The elements in Stack are: \n" ;
@@ -65,7 +65,7 @@ int main()
             --i ;
         }
         cout << "\n"<< "Enter any key to go to the menu again: " ;
-        getch();
+        keep_the_fucking_window_open();
         }
 
     return 0;
