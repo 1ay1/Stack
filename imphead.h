@@ -1,5 +1,8 @@
 // imphead.h( Important header files) 
 
+#ifndef imphead
+#define imphead
+
 #include<iostream>
 #include<fstream>
 #include<sstream>
@@ -23,3 +26,5 @@ void keep_the_fucking_window_open()  // function to keep the window open
     char ch;
     cin >> ch;
 }
+
+#endif
